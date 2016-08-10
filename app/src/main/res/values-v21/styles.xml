@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- 允许使用transitions -->
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <!-- 指定进入和退出transitions -->
+        <item name="android:windowEnterTransition">@transition/transition_open</item>
+        <item name="android:windowExitTransition">@transition/transition_close</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <!--<item name="android:textColorPrimary">@color/main_white</item>-->
+        <!--<item name="android:navigationBarColor">#FFFFFF</item>-->
+    </style>
+</resources>
